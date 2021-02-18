@@ -212,20 +212,20 @@ class ComplexTest {
 		/**
 		 * Compara el Primer Número con el Segundo.
 		 */
-		
+
 		Complex numero1 = new Complex(9, 13);
 		Complex numero3 = new Complex(-27, -3.4);
 
 		assertFalse(numero1.equals(numero3));
 	}
-	
+
 	@Test
 	@DisplayName("Prueba de Equals 2")
 	void testEqualsObject2() {
 		/**
 		 * Compara el Primer Número con el Segundo.
 		 */
-		
+
 		Complex numero1 = new Complex(-4, 2);
 		Complex numero2 = new Complex(-4, 2);
 
